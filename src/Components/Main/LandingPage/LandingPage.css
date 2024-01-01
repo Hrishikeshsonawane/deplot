@@ -1,0 +1,193 @@
+ .hero {
+     width: 100vw;
+     height: 100vh;
+     text-align: center;
+     color: #CCC;
+     position: relative;
+     text-transform: uppercase;
+     font-family: 'Amatic SC', sans-serif;
+     letter-spacing: 15px;
+     transition: background-color 0.3s;
+
+ }
+
+ .LogAsAdmin {
+     position: absolute;
+     z-index: 999;
+     width: 10%;
+     height: 10%;
+     background-color: red;
+ }
+
+ .hero-one {
+     top: 0;
+     position: absolute;
+     width: 60%;
+     background-color: black;
+     height: 100vh;
+     clip-path: polygon(0 0, 60vw 0, 40vw 100vh, 0 100vh);
+     z-index: 1;
+     background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../Sources/picture-two-electrical-engineers-checking-electrical-work-using-computer-standing-power-station-see-planning-work-high-voltage-electrodes_140555-3.avif);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+ }
+
+ .hero-two {
+     position: absolute;
+     top: 0;
+     right: 0;
+     width: 60%;
+     background-color: green;
+     height: 100vh;
+     background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .5)), url(../Sources/Daily-News-Wrap-Up-Power-Ministry-Amends-License-Rules-to-Distribute-Electricity.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+ }
+
+ 
+ 
+
+ .header-title {
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.header-primary{
+
+    font-size: 1.4rem;
+    display: block;
+    font-weight: 700;
+    filter: blur(5px);  
+    animation: blurToClear 1.4s ease forwards;  
+}
+
+.header-sub {
+    font-size: 0.8rem;
+    display: block;
+    font-weight: 700;
+    filter: blur(5px);  
+    animation: blurToClear 1.4s ease forwards;  
+}
+
+@keyframes blurToClear {
+    0% {
+        filter: blur(5px); 
+    }
+    100% {
+        filter: blur(0);  
+    }
+}
+
+
+ .getStartedBTN {
+     text-align: center;
+     text-transform: uppercase;
+     cursor: pointer;
+     font-size: 10px;
+     letter-spacing: 4px;
+     position: relative;
+     background-color: #00483a;
+     border: none;
+     color: #fff;
+     padding: 15px;
+     width: 30%;
+     text-align: center;
+     transition-duration: 0.4s;
+     overflow: hidden;
+     box-shadow: 0 5px 15px #193047;
+     border-radius: 4px;
+     margin-top: 5px;
+     transition: background-color 0.3s, transform 0.3s;
+     transform: scale(1);
+     animation: makeUp 1s linear;
+
+ }
+
+ @keyframes makeUp {
+     0% {
+         -webkit-transform: translateY(300px);
+     }
+
+     100% {
+         -webkit-transform: translateY(0px);
+     }
+ }
+
+ .getStartedBTN:hover {
+     background-color: #003428;
+     transform: scale(1.05);
+ }
+
+ .right-corner {
+     display: flex;
+     align-items: center;
+     justify-content: right;
+     position: relative;
+     z-index: 1;
+
+ }
+
+ .adminLoginButton {
+     text-align: center;
+     text-transform: uppercase;
+     cursor: pointer;
+     font-size: 8px;
+     letter-spacing: 4px;
+     position: relative;
+     background-color: #00483a;
+     border: none;
+     color: #fff;
+     padding: 8px;
+     width: 15%;
+     text-align: center;
+     transition-duration: 0.4s;
+     overflow: hidden;
+     box-shadow: 0 5px 15px #193047;
+     border-radius: 4px;
+     margin-top: 5px;
+     transition: background-color 0.3s, transform 0.3s;
+     transform: scale(1);
+ }
+
+ .adminLoginButton:hover {
+     background-color: #003428;
+     transform: scale(1.05);
+ }
+
+ @media (max-width: 768px) {
+     .LogAsAdmin {
+         top: 5px;
+         right: 5px;
+         padding: 5px;
+     }
+ }
+
+ @media (max-width: 480px) {
+     .LogAsAdmin {
+         top: 5px;
+         right: 5px;
+         padding: 5px;
+     }
+ }
+
+ @media (max-width: 768px) {
+     .getStartedBTN {
+         margin-top: 5px;
+         font-size: 12px;
+         width: 50%;
+     }
+ }
+
+ @media (max-width: 480px) {
+     .getStartedBTN {
+         margin-top: 5px;
+         font-size: 10px;
+         width: 50%;
+     }
+ }
