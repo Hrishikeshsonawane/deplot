@@ -23,7 +23,7 @@ const Footer = () => {
                   <i className="fas fa-phone"></i>
                   <div className="cta-text">
                     <h4>Call us</h4>
-                    <span>9876543210</span>
+                    <span>+91 9601296115</span>
                   </div>
                 </div>
               </div>
