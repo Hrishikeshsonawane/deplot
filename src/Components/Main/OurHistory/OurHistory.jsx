@@ -30,8 +30,7 @@ const OurHistory = () => {
                         <Row >
                             <Col xs={12} md={6}>
                                 <h2>Who we are</h2>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui repellendus atque ullam cum quidem dicta rerum inventore aliquam voluptate quis neque, doloremque sapiente illo, dignissimos assumenda quae, nesciunt soluta. Veniam, quasi maxime non sequi, modi itaque quam laborum nesciunt dolorum possimus adipisci ducimus quia veritatis, soluta atque pariatur sint fugit!                                </p>
+                                <p><b>IMEP SOLUTION</b> was established as a firm in 2015, as a proprietorship company. IMEP SOLUTION is an Architechtural, Electrical, Mechanical, Plumbing, Fire, HVAC design and Contracting, Supply & installation firm. It is the team of proficient and dedicated young professionals who have developed skill in the use of incorporating computer aided technologies in the field of Electro mechanical design, Consultancy.</p>
                             </Col>
                             <Col xs={12} md={6}>
                                 <Image src={sampleImage} thumbnail />
